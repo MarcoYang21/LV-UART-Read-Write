@@ -2,6 +2,7 @@
 ## simple UART Read-Write LabVIEW code
 
 ## The flow chart
+```mermaid
 flowchart TD
     A[開啟 COM 埠] --> B{是否有資料要寫入？}
     B -->|沒有| F{Buffer 是否有資料可以讀取？}
