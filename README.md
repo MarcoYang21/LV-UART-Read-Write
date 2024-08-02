@@ -1,5 +1,10 @@
 # LV-UART-Read-Write
-## simple UART Read-Write LabVIEW code
+目前這個專案一共有五種寫法來做UART讀寫動作
+1. 基本資料流
+2. JKI state machine
+3. actor framework
+4. Worker
+5. DQMH
 
 ## The flow chart
 ```mermaid
